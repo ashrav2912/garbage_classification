@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 
-from transformers import pipeline
+# from transformers import pipeline
 import numpy as np
 from transformers import AutoFeatureExtractor, AutoModelForImageClassification
 
@@ -78,5 +78,5 @@ def main():
 
 
 
-if __name__ == '__main_':
+if __name__ == '__main__':
     main()
